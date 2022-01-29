@@ -2,14 +2,15 @@
 ## предподготовка 
   1. создали папку 
   2. в этой папке еще одну папку 
-  3. с 2 папке прописали dotnet new console
-  4. в 1 папке прописали git init 
+  3. с 2 папке прописали **dotnet new console**
+  4. в 1 папке прописали **git init** 
 ## написание программы 
   1. создали массив и заполнили его в ручную
-string[] daysOfWeek = { "fjgf", "sdg", "q","sdgsdgsdzvzvc", "Tdg", "we", "gs1" }; 
+**string[] daysOfWeek = { "fjgf", "sdg", "q","sdgsdgsdzvzvc", "Tdg", "we", "gs1" };** 
   2. производим операцию с масссивом для решеня условия данной задачи 
-for (int i = 0; i < daysOfWeek.Length-1; i++){
- if(daysOfWeek[i].Length<=3){
+**for (int i = 0; i < daysOfWeek.Length-1; i++){**
+ **if(daysOfWeek[i].Length<=3){**
   3. выводим полученую информацию в консоль 
-Console.WriteLine(daysOfWeek[i]);}};
+**Console.WriteLine(daysOfWeek[i]);}};**
 ## условие задачи
+1. *написать* *программу*, *которая*  *из* *имеющегося* *массива* *строк* *формирует* *массив* *из* *строк*, *длина* *которых* *меньше* *или* *равная* *3* *символа*.
